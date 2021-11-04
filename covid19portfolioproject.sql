@@ -6,7 +6,7 @@ Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, 
 select * from coviddeaths
 where continent is not null
     
---select * from covidvaccination
+select * from covidvaccination
 
 
 */
