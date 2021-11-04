@@ -158,3 +158,11 @@ join covidvaccination vac
 on dea.location=vac.location
 and dea.date=vac.date
 where dea.continent is not null
+
+
+--Percentage contribution of Male vs Female smokers who contracted Covid
+
+select location, max([male_smokers]),max([female_smokers]) from [dbo].[covidvaccination]
+where continent is not null
+group by location
+order by location
