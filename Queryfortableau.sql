@@ -1,4 +1,6 @@
 /*
+Link For Tableau Dashboard - https://public.tableau.com/app/profile/reuben1088/viz/Covid-19Dashboard_16360902556660/Dashboard1
+
 Queries used for Tableau Project
 */
 
